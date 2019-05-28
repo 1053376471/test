@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/iconfont.css">
+    <style>
+        .iconfont {
+            font-size: 60px;
+        }
+        .top {
+            height: 60px;
+            border: solid 1px #eee;
+            font-size: 40px;
+            line-height: 60px;
+
+        }
+        .test {
+            float: right;
+            width: 80px;
+        }
+        .a1 {
+            height: 140px;
+            border: solid 1px #eee;
+        }
+        .a2 {
+            line-height: 140px;
+            margin-left: 50px;
+            font-size: 50px;
+        }
+        .a3 {
+            line-height: 140px;
+            font-size: 60px;
+            float: right;
+            margin-right: 60px;
+        }
+        .b0 ul {
+            list-style: none;
+            height: 1575px;
+            overflow: scroll;
+            margin-left: -45px;
+        }
+        .bo li {
+            border: white solid 1px;
+            height: 200px;
+        }
+        .b0 .b1 {
+            width: 200px;
+            height: 200px;
+            float: left;
+            text-align: center;
+        }
+        .b0 .b2 {
+            width: 700px;
+            height: 150px;
+            float: left;
+            border-bottom: 1px solid #9d9d9d;
+            padding-left: 50px;
+            font-size: 60px;
+            margin-top: 50px;
+        }
+        img{
+            margin-left: 15px;
+            margin-top: 25px;
+        }
+        .a4 {
+            width: 400px;
+            height: 500px;
+            background-color: black;
+            position: absolute; /*绝对定位*/
+            top: 177px;
+            right: 0px;
+            color: white;
+            display: none;
+        }
+        #wrap .a1:hover .a4 {
+            display: block;
+        }
+
+        #wrap .a1 .a4 .b5 {
+            list-style: none;
+            margin-top: 50px;
+            font-size: 60px;
+        }
+
+        #wrap .a1 .img .a4 .b5 b6 {
+            border-bottom: #aaaaaa 1px solid;
+            margin-left: 0px;
+        }
+        .b3{
+            font-size: 40px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            width: 600px;
+        }
+        @keyframes test{
+            from{
+                width: 20px;
+            }
+            to{
+                width: 940px;
+            }
+        }
+        .dian{
+            width: 20px;
+            height: 5px;
+            background-color: #1afa29;
+            animation: test 5s infinite;
+            position: absolute;
+            top: 10px;
+        }
+        #imgs {
+            height: 250px;
+            display: flex;
+            text-align: center;
+        }
+        .zi{
+            font-size: 50px;
+            height: 250px;
+            width: 241px;
+        }
+        .zi1{
+            width: 200px;
+            font-size: 50px;
+            margin-left: 20px;
+        }
+        a{
+            text-decoration: none;
+        }
+        /*a标签点击不变色*/
+        a:link {
+            font-size: 12px;
+            color: #000000;
+            text-decoration: none;
+        }
+        a:visited {
+            font-size: 12px;
+            color: #000000;
+            text-decoration: none;
+        }
+        a:hover {
+            font-size: 12px;
+            color: #999999;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <div class="top">
+        <span>下午5:59丨6.6M/s</span>&nbsp&nbsp&nbsp
+        <span class="iconfont ">&#xe61d;</span>
+        <span class="iconfont test">&#xe617;</span>
+        <span class="iconfont test">&#xe625;</span>
+        <span class="iconfont test">&#xe625;</span>
+    </div>
+    <div class="a1">
+        <span class="a2">微 信</span>
+        <span class="iconfont a3">&#xe657;</span>
+        <div class="a4">
+            <ul class="b5">
+                <li class="b6">发起群聊
+                <li>
+                <li class="b6">添加朋友
+                <li>
+                <li class="b6">扫一扫
+                <li>
+                <li class="b6">收付款
+                <li>
+                <li class="b6">帮助与反馈
+                <li>
+            </ul>
+        </div>
+        <span class="iconfont a3">&#xe611;</span>
+
+    </div>
+
+    <div class="b0">
+        <ul>
+            <li>
+                <div class="b1">
+                    <img src="img/15.jpg" alt="图片" height="150" width="150">
+                </div>
+                <div class="b2">韩愈
+                    <div class="b3">天街小雨润如酥，草色遥看近却无。最是一年春好处，绝胜烟柳满皇都。
+                    </div>
+                    <span class="iconfont test" style="margin-top: 100px">&#xe6be;</span>
+                </div>
+            </li>
+            <li>
+                <div class="b1">
+                    <img src="img/16.jpg" alt="图片" height="150" width="150">
+                </div>
+                <div class="b2">唐代诗人
+                    <div class="b3">曾栽杨柳江南岸， 一别江南两度春。 遥忆青青江岸上，不知攀折是何人。</div>
+
+                </div>
+            </li>
+            <li>
+                <div class="b1">
+                    <img src="img/17.jpg" alt="图片" height="150" width="150">
+                </div>
+                <div class="b2">李白
+                    <div class="b3">朝辞白帝彩云间，千里江陵一日还。 两岸猿声啼不住，轻舟已过万重山。</div>
+                </div>
+            </li>
+            <li>
+                <div class="b1">
+                    <img src="img/18.jpg" alt="图片" height="150" width="150">
+                </div>
+                <div class="b2">李商隐
+                    <div class="b3">君问归期未有期，巴山夜雨涨秋池。何当共剪西窗烛，却话巴山夜雨时。</div>
+                </div>
+            </li>
+            <li>
+                <div class="b1">
+                    <img src="img/19.jpg" alt="图片" height="150" width="150">
+                </div>
+                <a href="聊天界面.html">
+                <div class="b2">李白
+                    <div class="b3">白日依山尽，黄河入海流。欲穷千里目，更上一层楼。</div>
+                </div>
+                </a>
+            </li>
+            <li>
+                <div class="b1">
+                    <img src="img/20.jpg" alt="图片" height="150" width="150">
+                </div>
+                <div class="b2">saassssaaaaa
+                    <div class="b3">asdasdas</div>
+                </div>
+            </li>
+            <li>
+                <div class="b1">
+                    <img src="img/21.jpg" alt="图片" height="150" width="150">
+                </div>
+                <div class="b2">saassssaaaaa
+                    <div class="b3">asdasdas</div>
+                </div>
+            </li>
+            <li>
+                <div class="b1">
+                    <img src="img/22.jpg" alt="图片" height="150" width="150">
+                </div>
+                <div class="b2">saassssaaaaa
+                    <div class="b3">asdasdas</div>
+                </div>
+            </li>
+            <li>
+                <div class="b1">
+                    <img src="img/23.jpg" alt="图片" height="150" width="150">
+                </div>
+                <div class="b2">saassssaaaaa
+                    <div class="b3">asdasdas</div>
+                </div>
+            </li>
+            <li>
+                <div class="b1">
+                    <img src="img/24.jpg" alt="图片" height="150" width="150">
+                </div>
+                <div class="b2">saassssaaaaa
+                    <div class="b3">asdasdas</div>
+                </div>
+            </li>
+            <li>
+                <div class="b1">
+                    <img src="img/22.jpg" alt="图片" height="150" width="150">
+                </div>
+                <div class="b2">saassssaaaaa
+                    <div class="b3">asdasdas</div>
+                </div>
+            </li>
+            <li>
+                <div class="b1">
+                    <img src="img/12.jpg" alt="图片" height="150" width="150">
+                </div>
+                <div class="b2">saassssaaaaa
+                    <div class="b3">asdasdas</div>
+                </div>
+            </li>
+        </ul>
+        </div>
+    <div id="imgs">
+
+        <a href="微信.html">
+            <div class="zi">
+                <img src="img/微信.png" alt="" style="text-align: center;width: 120px;height: 120px;margin-top: 0;margin-left: 0">
+                <div class="zi1">微信</div>
+            </div>
+        </a>
+        <a href="通讯录.html">
+            <div class="zi">
+                <img src="img/通讯录.png" alt="" style="text-align: center;width: 120px;height: 120px;margin-top: 0;margin-left: 0">
+                <div class="zi1">通讯录</div>
+            </div>
+        </a>
+        <a href="发现.html">
+            <div class="zi">
+                <img src="img/发现.png" alt="" style="text-align: center;width: 120px;height: 120px;margin-top: 0;margin-left: 0">
+                <div class="zi1">发现</div>
+            </div>
+        </a>
+        <a href="我.html">
+            <div class="zi">
+                <img src="img/我的.png" alt="" style="text-align: center;width: 120px;height: 120px;margin-top: 0;margin-left: 0">
+                <div class="zi1">我</div>
+            </div>
+        </a>
+    <div class="dian"></div>
+
+</div>
+
+</body>
+</html>
